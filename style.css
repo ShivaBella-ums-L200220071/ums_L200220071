@@ -5,9 +5,12 @@ body {
   background-image: url('https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fdetailed-hand-painted-pink-watercolour-background_1048-17039.jpg%3Fw%3D2000&sp=1735365255T95ed314cbeb654473fcbd70aebbf48426d3d688e815607a97469894942534efa'); /* nama file gambar background yang sesuai */
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+
 
 .container {
   width: 80%;
