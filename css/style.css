@@ -1,0 +1,50 @@
+/* Style untuk halaman profil */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://cdn.kibrispdr.org/data/796/pink-muda-background-0.jpg'); /* nama file gambar background yang sesuai */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: blue; /* Warna teks */
+}
+
+h1, h2 {
+  color: blue; /* Warna judul */
+}
+
+img {
+  width: 200px; /* Ukuran gambar profil */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%; /* Mengubah gambar profil menjadi lingkaran */
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: blue; /* Warna tautan */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Efek garis bawah saat tautan dihover */
+}
