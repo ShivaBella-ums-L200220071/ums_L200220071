@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS IPSD DATA WhatsApp</title>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+}
+header {
+    background: #1e88e5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1, h2, h3 {
+    color: #0d47a1;
+}
+.steps {
+    margin: 20px 0;
+}
+.steps p {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+.steps p::before {
+    content: "➡";
+    position: absolute;
+    left: 0;
+    color: #1e88e5;
+}
+.cluster {
+    margin-bottom: 30px;
+}
+.cluster h3 {
+    margin-bottom: 5px;
+}
+.cluster ul {
+    background: #bbdefb;
+    padding: 10px;
+    border-radius: 6px;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #1e88e5;
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TUGAS IPSD DATA WHATSHAPP </h1>
+    </header>
+    <div class="container">
+        <h2>Proses Analisis</h2>
+        <div class="steps">
+            <p>Data diekspor dari aplikasi WhatsApp dalam format teks mentah.</p>
+            <p>Pembersihan dilakukan menggunakan Python untuk menghapus metadata yang tidak relevan.</p>
+            <p>Data dianalisis dan dikelompokkan menggunakan algoritma K-Means Clustering.</p>
+            <p>Hasil analisis ditampilkan untuk memberikan wawasan dari pola-pola yang teridentifikasi.</p>
+        </div>
+        
+        <h2>Hasil Klasterisasi</h2>
+        <p>Pesan-pesan dalam grup WhatsApp telah dikelompokkan menjadi tiga klaster dengan detail sebagai berikut:</p>
+        
+        <div class="cluster">
+            <h3>Klaster 0</h3>
+            <p><strong>Karakteristik:</strong> Banyak membahas topik koordinasi, menggunakan kata-kata seperti "tolong", "bisa", dan "konfirmasi".</p>
+            <ul>
+                <li>"Tolong segera konfirmasi ulang jadwal."</li>
+                <li>"Bisa bantu cek dokumen ini?"</li>
+                <li>"Tolong jangan lupa deadline besok."</li>
+            </ul>
+        </div>
+
+        <div class="cluster">
+            <h3>Klaster 1</h3>
+            <p><strong>Karakteristik:</strong> Pesan yang bernada santai atau menyapa, seperti "halo", "hai", atau "terima kasih".</p>
+            <ul>
+                <li>"Halo, apa kabar semua?"</li>
+                <li>"Hai, selamat pagi!"</li>
+                <li>"Terima kasih untuk bantuannya!"</li>
+            </ul>
+        </div>
+
+        <div class="cluster">
+            <h3>Klaster 2</h3>
+            <p><strong>Karakteristik:</strong> Berisi percakapan singkat atau respon cepat seperti "ok", "sudah", dan "iya".</p>
+            <ul>
+                <li>"Ok, saya setuju."</li>
+                <li>"Sudah dikirim, cek ya."</li>
+                <li>"Iya, nanti saya follow up."</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Analisis Data WhatsApp | Dibuat dengan Python & HTML
+    </footer>
+</body>
+</html>
