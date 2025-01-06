@@ -1,49 +1,65 @@
-/* Style untuk halaman profil */
-
+/* CSS untuk membuat tampilan lebih menarik */
 body {
-  font-family: Arial, sans-serif;
-  background-image: url('https://img.wallpaper.sc/iphone8plus/images/1398x2592/iphone8plus-1398x2592-wallpaper_01153.jpg'); /* nama file gambar background yang sesuai */
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 50;
-  padding: 0;
-}
-.container {
-  width: 80%;
-  margin: 20px auto;
-  background-color: rgba(255, 255, 255, 0.8); 
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  color: blue; /* Warna teks */
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-h1, h2 {
-  color: blue; /* Warna judul */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-img {
-  width: 200px; /* Ukuran gambar profil */
-  height: auto;
-  display: block;
-  margin: 0 auto 20px;
-  border-radius: 50%; /* Mengubah gambar profil menjadi lingkaran */
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin-top: 20px;
 }
 
 ul {
-  list-style-type: none; 
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
-li {
-  margin-bottom: 10px;
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+ul li strong {
+    color: #4CAF50;
 }
 
 a {
-  color: blue; /* Warna tautan */
-  text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 a:hover {
-  text-decoration: underline; /* Efek garis bawah saat tautan dihover */
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
